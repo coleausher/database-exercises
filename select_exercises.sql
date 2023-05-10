@@ -27,4 +27,4 @@ WHERE sales < 20;
 -- All the albums with a genre of "Rock". Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock"?
 SELECT record_name AS 'Albums with genre of Rock'
 FROM albums
-WHERE genre = 'Rock';
+WHERE genre = 'rock';
